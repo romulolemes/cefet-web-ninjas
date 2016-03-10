@@ -1,0 +1,33 @@
+img, iframe {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+h1, h2 {
+	font-family: "Arial";
+}
+
+a:link{
+	
+}
+a:visited{
+	
+}
+a:hover{
+	
+}
+a:active{
+	
+}
+
+a[href^="http"] {
+	background-image: url(img/globo.png);
+  background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+#logoMarca {
+  width: 200px;
+}
+
+
