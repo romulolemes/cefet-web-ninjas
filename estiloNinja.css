@@ -1,3 +1,12 @@
+body{
+	background-color: #9DEECC;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 75px;
+	margin-left: 75px;
+}
+
 img, iframe {
 	display: block; 
 	margin-left: auto; 
@@ -8,26 +17,40 @@ h1, h2 {
 }
 
 a:link{
-	
+	text-decoration: none;
+	color: #1927A1;
 }
 a:visited{
-	
+	color: #11770C;
 }
 a:hover{
-	
+	color: #AFA42B;
+	text-decoration: underline;
 }
 a:active{
-	
+	color: #B722C8;
 }
 
 a[href^="http"] {
 	background-image: url(img/globo.png);
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	padding-left: 20px;
 }
 
 #logoMarca {
-  width: 200px;
+	width: 200px;
+}
+
+em.rodape {
+	font-size: 10px;
+	font-family: "Arial, Helvetica", sans-serif;
+}
+
+strong.tornarNinja{
+	padding: 4px;
+	font-size: 25px;
+	color: #14188D;
+	background-color: #5CD3E0; 
 }
 
 
